@@ -42,8 +42,10 @@ Image: The quote element is the offer in both currencies € and $
 
 Image: calc and payment offer transparency over the offered prices and costs
 
+![The tx](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/miningResult.png)
+Image: The transaction-id is the end result of the dialog.
 
-Image: The transaction is the end result of the dialog.
+If you want more details that continue
 
 ## Staging the development process
 We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
@@ -57,10 +59,10 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE1MzY0MTcsLTIwOTMzNTYxMzQsMT
-g5MjEzMzc2MywxNTgzMzgyMzM3LDMyMjYyNzg1MCwxODYwNTg3
-MzAzLDE1NjA1MTI4ODUsLTE4NTc2ODU0MTEsNDU2NTc5NDk3LD
-ExOTU3MTQ4MzksLTExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5
-NTUyLC0xNDg2MzIwMzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4Mi
-wxNTM4MzY0NDU2LDEzNzk2OTM0OTksNzU1NTI5NTU4XX0=
+eyJoaXN0b3J5IjpbMTQ1NjcyODk1NCwtMjA5MzM1NjEzNCwxOD
+kyMTMzNzYzLDE1ODMzODIzMzcsMzIyNjI3ODUwLDE4NjA1ODcz
+MDMsMTU2MDUxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0OTcsMT
+E5NTcxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1
+NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLD
+E1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
