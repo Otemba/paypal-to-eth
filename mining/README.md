@@ -54,7 +54,7 @@ Image: If you want more details than continue the non-blocking ping-pong till th
 ## Staging the development process
 We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
 
-### If you did not find the time to read all that stuff
+# If you did not find the time to read all that stuff
 Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new or existing contracts in Ethereum.  That means that you do not need to implement a backend yourself.
 You will need a contract's ABI and data that you may copy from the very smart compiler http://remix.ethereum.org. You also need to provide the contract's arguments.
 
@@ -63,11 +63,11 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3ODE1MjMzLDE4NzE2Mzk3ODQsLTIwOT
-MzNTYxMzQsMTg5MjEzMzc2MywxNTgzMzgyMzM3LDMyMjYyNzg1
-MCwxODYwNTg3MzAzLDE1NjA1MTI4ODUsLTE4NTc2ODU0MTEsND
-U2NTc5NDk3LDExOTU3MTQ4MzksLTExNjA1MzU2MywxNzgwMTY2
-NzU0LDIyMzI5NTUyLC0xNDg2MzIwMzIwLC00MTAwMDA3MjMsLT
-YzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNzk2OTM0OTksNzU1NTI5
-NTU4XX0=
+eyJoaXN0b3J5IjpbMTA5NjgwMDk3LDY1NzgxNTIzMywxODcxNj
+M5Nzg0LC0yMDkzMzU2MTM0LDE4OTIxMzM3NjMsMTU4MzM4MjMz
+NywzMjI2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xOD
+U3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1
+NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtND
+EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
+NDk5XX0=
 -->
