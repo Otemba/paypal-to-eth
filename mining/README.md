@@ -31,7 +31,7 @@ Image: The quote element is the offer in both currencies € and $
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
 ## Staging the development process
-We s
+We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. When you are done and want to see the payment in practice, then please 
 
 
 ### If you did not find the time to read all that stuff
@@ -42,7 +42,7 @@ Otemba offers a ready to use CORS enabled REST server that offers the payment pr
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzYzNTk0NSwzMjI2Mjc4NTAsMTg2MD
+eyJoaXN0b3J5IjpbLTkxMTE3MDgxMiwzMjI2Mjc4NTAsMTg2MD
 U4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1NDExLDQ1NjU3OTQ5
 NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMTc4MDE2Njc1NCwyMj
 MyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2
