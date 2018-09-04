@@ -10,12 +10,12 @@ Image: A non-blocking happy flow dialog needs three REST calls
 ## What does the dialog.json tell?
 Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may support you whilst controlling and tracking the state.
 
-Image: Test modes
+Image: Test-modes that support a quick start
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjA2OTM4MSwtMTQ4NjMyMDMyMCwtND
-EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
-NDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbOTE4MTAwMTk4LC0xNDg2MzIwMzIwLC00MT
+AwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNzk2OTM0
+OTksNzU1NTI5NTU4XX0=
 -->
