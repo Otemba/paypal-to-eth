@@ -18,14 +18,16 @@ As a suggestion you may want to use Remix to compile your contract. Please note 
 Image: the most important element is the contract that you want to deploy
 ## What does the dialog.json tell you when it grows after each call?
 The example shows a dialog.json that you may use to start with. Now you want to know what the server adds during the converstation.
-
+![The errorReport](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/errorReport.png)
+Image: you may want to check if this array is empty after each call
+![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2NTc5NDk3LDExOTU3MTQ4MzksLTExNj
-A1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUyLC0xNDg2MzIwMzIw
-LC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNz
-k2OTM0OTksNzU1NTI5NTU4XX0=
+eyJoaXN0b3J5IjpbLTE0NjI1NzUyOTUsNDU2NTc5NDk3LDExOT
+U3MTQ4MzksLTExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUy
+LC0xNDg2MzIwMzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNT
+M4MzY0NDU2LDEzNzk2OTM0OTksNzU1NTI5NTU4XX0=
 -->
