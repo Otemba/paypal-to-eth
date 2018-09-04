@@ -14,13 +14,14 @@ This is an optional entry that may save a lot of Eth.
 ![Test Modes](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/testModes.png)
 Image: Test-modes that support a quick start
 ### The Ethereum contract that you want to mine
-As a suggestion you may want to use Remix o 
+As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in deploy.arguments.
+![](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/testModes.png)
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA5NDcxMjQsMTc4MDE2Njc1NCwyMj
-MyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2
-ODIsMTUzODM2NDQ1NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbNjU1MTgxOTI2LDE3ODAxNjY3NTQsMjIzMj
+k1NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgy
+LDE1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
