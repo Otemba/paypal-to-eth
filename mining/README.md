@@ -8,7 +8,8 @@ The dialog is a ping-pong between the browser of your user and the CORS-enabled 
 Image: A non-blocking happy flow dialog needs three REST calls
 ### Calling the Otemba server
 The server keeps track of the dialog and figures out what you need during the conversation. 
-![States of a happy flow](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/statesWithText.png)
+![Sample REST Call](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/sampleRESTCall.png)
+Image: The ping pong game
 ## What do you need in your dialog.json?
 Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may support you whilst controlling and tracking the state.
 ### Exploratory testing and trying out
@@ -39,9 +40,9 @@ Image: calc and payment offer transparency over the offered prices and costs
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MTgyMzk2LDE1NjA1MTI4ODUsLTE4NT
-c2ODU0MTEsNDU2NTc5NDk3LDExOTU3MTQ4MzksLTExNjA1MzU2
-MywxNzgwMTY2NzU0LDIyMzI5NTUyLC0xNDg2MzIwMzIwLC00MT
-AwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNzk2OTM0
-OTksNzU1NTI5NTU4XX0=
+eyJoaXN0b3J5IjpbMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xOD
+U3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1
+NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtND
+EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
+NDk5LDc1NTUyOTU1OF19
 -->
