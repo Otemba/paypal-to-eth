@@ -22,8 +22,9 @@ This is an optional entry that may save a lot of Eth.
 
 Image: Test-modes that support a quick start
 ### The Ethereum contract that you want to mine
-As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in deploy.arguments. 
-	![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theContract.png)
+As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in the element "deploy.arguments."
+ 
+![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theContract.png)
 
 Image: the most important element is the contract that you want to deploy
 ## What does the dialog.json tell you when it grows after each call?
@@ -52,10 +53,10 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5OTk1NjAxLDE4OTIxMzM3NjMsMTU4Mz
-M4MjMzNywzMjI2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1
-LC0xODU3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMT
-YwNTM1NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMy
-MCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMz
-c5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbLTIwOTMzNTYxMzQsMTg5MjEzMzc2MywxNT
+gzMzgyMzM3LDMyMjYyNzg1MCwxODYwNTg3MzAzLDE1NjA1MTI4
+ODUsLTE4NTc2ODU0MTEsNDU2NTc5NDk3LDExOTU3MTQ4MzksLT
+ExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUyLC0xNDg2MzIw
+MzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LD
+EzNzk2OTM0OTksNzU1NTI5NTU4XX0=
 -->
