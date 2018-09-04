@@ -26,13 +26,17 @@ Image: The quote element is the offer in both currencies € and $
 
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
-### If you did not have the time to read a
+### Calling the Otemba server
+The server keeps track of the dialog and figures out what you need to
+
+### If you did not have the time to read all that stuff
+
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTA3ODU3MCwtMTg1NzY4NTQxMSw0NT
+eyJoaXN0b3J5IjpbMTUxNTUwMjAwMywtMTg1NzY4NTQxMSw0NT
 Y1Nzk0OTcsMTE5NTcxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3
 NTQsMjIzMjk1NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNj
 M2NzQwNjgyLDE1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1
