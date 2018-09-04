@@ -20,15 +20,17 @@ Image: the most important element is the contract that you want to deploy
 The example shows a dialog.json that you may use to start with. Now you want to know what the server adds during the converstation.
 ![The errorReport](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/errorReport.png)
 Image: you may want to check if this array is empty after each call
+
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
-![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/
+![The quote](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theQuote.png)
+Image: The quote element is the offer in both currencies € and 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMzU4MDg3LDQ1NjU3OTQ5NywxMTk1Nz
-E0ODM5LC0xMTYwNTM1NjMsMTc4MDE2Njc1NCwyMjMyOTU1Miwt
-MTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMTUzOD
-M2NDQ1NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbLTMyODMwMzk5MSw0NTY1Nzk0OTcsMTE5NT
+cxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1NTIs
+LTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLDE1Mz
+gzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
