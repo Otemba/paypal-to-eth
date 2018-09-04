@@ -43,11 +43,13 @@ Image: The quote element is the offer in both currencies € and $
 Image: calc and payment offer transparency over the offered prices and costs
 
 ![The tx](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/miningResult.png)
+
 Image: The transaction-id is the end result of the dialog.
 
-![The tx](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/miningResult.png)
+![The tx](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/miningStatus.png)
 
-If you want more details that continue the non blocking ping-pong till the mining is done.
+
+Image: If you want more details than continue the non-blocking ping-pong till the miners of Ethereum finished their work.
 
 ## Staging the development process
 We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
@@ -61,10 +63,10 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MzEzNzY0LC0yMDkzMzU2MTM0LDE4OT
-IxMzM3NjMsMTU4MzM4MjMzNywzMjI2Mjc4NTAsMTg2MDU4NzMw
-MywxNTYwNTEyODg1LC0xODU3Njg1NDExLDQ1NjU3OTQ5NywxMT
-k1NzE0ODM5LC0xMTYwNTM1NjMsMTc4MDE2Njc1NCwyMjMyOTU1
-MiwtMTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMT
-UzODM2NDQ1NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbMTg3MTYzOTc4NCwtMjA5MzM1NjEzNCwxOD
+kyMTMzNzYzLDE1ODMzODIzMzcsMzIyNjI3ODUwLDE4NjA1ODcz
+MDMsMTU2MDUxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0OTcsMT
+E5NTcxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1
+NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLD
+E1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
