@@ -21,16 +21,18 @@ The example shows a dialog.json that you may use to start with. Now you want to 
 ![The errorReport](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/errorReport.png)
 Image: you may want to check if this array is empty after each call
 
+![The quote](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theQuote.png)
+Image: The quote element is the offer in both currencies € and $
+
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
-![The quote](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theQuote.png)
-Image: The quote element is the offer in both currencies € and 
+
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODMwMzk5MSw0NTY1Nzk0OTcsMTE5NT
-cxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1NTIs
-LTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLDE1Mz
-gzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc2ODU0MTEsNDU2NTc5NDk3LDExOT
+U3MTQ4MzksLTExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUy
+LC0xNDg2MzIwMzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNT
+M4MzY0NDU2LDEzNzk2OTM0OTksNzU1NTI5NTU4XX0=
 -->
