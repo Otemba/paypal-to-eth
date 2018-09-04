@@ -31,9 +31,9 @@ Image: The quote element is the offer in both currencies € and $
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
 ## Staging the development process
-We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the element named "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
+We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
 
-### If you did not find the time to read all that stuff
+## If you did not find the time to read all that stuff
 Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new or existing contracts in Ethereum.  That means that you do not need to implement a backend yourself.
 You will need a contract's ABI and data that you may copy from the very smart compiler http://remix.ethereum.org. You also need to provide the contract's arguments.
 
@@ -42,10 +42,10 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI0NDcyNzIsMTU4MzM4MjMzNywzMj
-I2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1
-NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMT
-c4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAw
-NzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5NjkzNDk5LD
-c1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbMTg5MjEzMzc2MywxNTgzMzgyMzM3LDMyMj
+YyNzg1MCwxODYwNTg3MzAzLDE1NjA1MTI4ODUsLTE4NTc2ODU0
+MTEsNDU2NTc5NDk3LDExOTU3MTQ4MzksLTExNjA1MzU2MywxNz
+gwMTY2NzU0LDIyMzI5NTUyLC0xNDg2MzIwMzIwLC00MTAwMDA3
+MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNzk2OTM0OTksNz
+U1NTI5NTU4XX0=
 -->
