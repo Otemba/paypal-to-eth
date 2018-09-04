@@ -22,20 +22,23 @@ This is an optional entry that may save a lot of Eth.
 
 Image: Test-modes that support a quick start
 ### The Ethereum contract that you want to mine
-As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in deploy.arguments.
-
+As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in deploy.arguments. 
 	![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theContract.png)
 
 Image: the most important element is the contract that you want to deploy
 ## What does the dialog.json tell you when it grows after each call?
 The example shows a dialog.json that you may use to start with. Now you want to know what the server adds during the converstation.
+
 ![The errorReport](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/errorReport.png)
+
 Image: you may want to check if this array is empty after each call
 
 ![The quote](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theQuote.png)
+
 Image: The quote element is the offer in both currencies € and $
 
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
+
 Image: calc and payment offer transparency over the offered prices and costs
 ## Staging the development process
 We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
@@ -49,7 +52,7 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NzAxMjA1LDE4OTIxMzM3NjMsMTU4Mz
+eyJoaXN0b3J5IjpbNTk5OTk1NjAxLDE4OTIxMzM3NjMsMTU4Mz
 M4MjMzNywzMjI2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1
 LC0xODU3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMT
 YwNTM1NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMy
