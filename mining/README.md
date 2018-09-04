@@ -31,18 +31,18 @@ Image: The quote element is the offer in both currencies € and $
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
 ## Staging the development process
-We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
+We suggest that you start in test mode on Ropsten and skip the slow PayPal dialog in stage one. You can control this with the element named "test". When you are done and want to see the payment in practice, then please contact us for a sandbox and a production account with PayPal. The security concept of PayPal forces that you tell us from which server your customers will receive your pages.
 
 ### If you did not find the time to read all that stuff
 Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new or existing contracts in Ethereum.  That means that you do not need to implement a backend yourself.
-You will need a contracts ABI and data that you may copy from the very smart compiler http://remix.ethereum.org. You also need to provide the contracts arguments.
+You will need a contract's ABI and data that you may copy from the very smart compiler http://remix.ethereum.org. You also need to provide the contract's arguments.
 
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE2NzU1NDIsMTU4MzM4MjMzNywzMj
+eyJoaXN0b3J5IjpbLTExODI0NDcyNzIsMTU4MzM4MjMzNywzMj
 I2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1
 NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMT
 c4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAw
