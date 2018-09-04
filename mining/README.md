@@ -8,12 +8,14 @@ The dialog is a ping-pong between the browser of your user and the CORS-enabled 
 
 Image: A non-blocking happy flow dialog needs three REST calls
 ## What does the dialog.json tell?
-Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may help you tracking the state and problems that you may encounter.
+Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may support you whilst controlling and tracking the state.
+
+Image: Test modes
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNj
-M2NzQwNjgyLDE1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1
-NThdfQ==
+eyJoaXN0b3J5IjpbMjA5MjA2OTM4MSwtMTQ4NjMyMDMyMCwtND
+EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
+NDk5LDc1NTUyOTU1OF19
 -->
