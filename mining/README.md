@@ -35,15 +35,17 @@ We suggest that you start in test mode on Ropsten and skip the slow PayPal dialo
 
 ### If you did not find the time to read all that stuff
 Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new or existing contracts in Ethereum.  That means that you do not need to implement a backend yourself.
+You 
 
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzM4MjMzNywzMjI2Mjc4NTAsMTg2MD
-U4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1NDExLDQ1NjU3OTQ5
-NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMTc4MDE2Njc1NCwyMj
-MyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2
-ODIsMTUzODM2NDQ1NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbNjEzOTI4MjEyLDE1ODMzODIzMzcsMzIyNj
+I3ODUwLDE4NjA1ODczMDMsMTU2MDUxMjg4NSwtMTg1NzY4NTQx
+MSw0NTY1Nzk0OTcsMTE5NTcxNDgzOSwtMTE2MDUzNTYzLDE3OD
+AxNjY3NTQsMjIzMjk1NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcy
+MywtNjM2NzQwNjgyLDE1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NT
+U1Mjk1NThdfQ==
 -->
