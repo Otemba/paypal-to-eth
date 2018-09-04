@@ -5,20 +5,27 @@ Any webpage may start a dialog by sending and receiving a json file. TODO exampl
 The dialog is a ping-pong between the browser of your user and the CORS-enabled server of Otemba.
 
 ![States of a happy flow](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/statesWithText.png)
+
 Image: A non-blocking happy flow dialog needs three REST calls
 ### Calling the Otemba server
 The server keeps track of the dialog and figures out what you need during the conversation. 
+
 ![Sample REST Call](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/sampleRESTCall.png)
+
 Image: The ping pong game
 ## What do you need in your dialog.json?
 Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may support you whilst controlling and tracking the state.
 ### Exploratory testing and trying out
 This is an optional entry that may save a lot of Eth.
+
 ![Test Modes](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/testModes.png)
+
 Image: Test-modes that support a quick start
 ### The Ethereum contract that you want to mine
 As a suggestion you may want to use Remix to compile your contract. Please note that you need to provide its arguments in deploy.arguments.
+
 	![The contract](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theContract.png)
+
 Image: the most important element is the contract that you want to deploy
 ## What does the dialog.json tell you when it grows after each call?
 The example shows a dialog.json that you may use to start with. Now you want to know what the server adds during the converstation.
@@ -42,10 +49,10 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjEzMzc2MywxNTgzMzgyMzM3LDMyMj
-YyNzg1MCwxODYwNTg3MzAzLDE1NjA1MTI4ODUsLTE4NTc2ODU0
-MTEsNDU2NTc5NDk3LDExOTU3MTQ4MzksLTExNjA1MzU2MywxNz
-gwMTY2NzU0LDIyMzI5NTUyLC0xNDg2MzIwMzIwLC00MTAwMDA3
-MjMsLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNzk2OTM0OTksNz
-U1NTI5NTU4XX0=
+eyJoaXN0b3J5IjpbMjc4NzAxMjA1LDE4OTIxMzM3NjMsMTU4Mz
+M4MjMzNywzMjI2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1
+LC0xODU3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMT
+YwNTM1NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMy
+MCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMz
+c5NjkzNDk5LDc1NTUyOTU1OF19
 -->
