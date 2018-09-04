@@ -8,9 +8,9 @@ The dialog is a ping-pong between the browser of your user and the CORS-enabled 
 
 Image: A non-blocking happy flow dialog needs three REST calls
 ## What does the dialog.json tell?
-hello jelle
+Please note the sample start page for an initial dialog. The dialog is a json that grows d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjc0MDY4MiwxNTM4MzY0NDU2LDEzNz
-k2OTM0OTksNzU1NTI5NTU4XX0=
+eyJoaXN0b3J5IjpbMTUyMDgwMjE2NSwtNjM2NzQwNjgyLDE1Mz
+gzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
