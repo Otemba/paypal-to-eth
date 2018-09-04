@@ -12,10 +12,11 @@ Please note the sample start page for an initial dialog. The dialog is a json ob
 ![Test Modes](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/testModes.png)
 Image: Test-modes that support a quick start
 
+
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMjk1NTIsLTE0ODYzMjAzMjAsLTQxMD
-AwMDcyMywtNjM2NzQwNjgyLDE1MzgzNjQ0NTYsMTM3OTY5MzQ5
-OSw3NTU1Mjk1NThdfQ==
+eyJoaXN0b3J5IjpbMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4Nj
+MyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1
+NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
 -->
