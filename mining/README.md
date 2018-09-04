@@ -33,16 +33,17 @@ Image: calc and payment offer transparency over the offered prices and costs
 
 
 
-### If you did not have the time to read all that stuff
+### If you did not find the time to read all that stuff
+
 
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xOD
-U3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1
-NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtND
-EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
-NDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbMzIyNjI3ODUwLDE4NjA1ODczMDMsMTU2MD
+UxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0OTcsMTE5NTcxNDgz
+OSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1NTIsLTE0OD
+YzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLDE1MzgzNjQ0
+NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
