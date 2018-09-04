@@ -9,6 +9,7 @@ The dialog is a ping-pong between the browser of your user and the CORS-enabled 
 Image: A non-blocking happy flow dialog needs three REST calls
 ## What does the dialog.json tell?
 Please note the sample start page for an initial dialog. The dialog is a json object that grows during the session. The following are some indicators that may support you whilst controlling and tracking the state.
+#
 ![Test Modes](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/testModes.png)
 Image: Test-modes that support a quick start
 
@@ -16,7 +17,7 @@ Image: Test-modes that support a quick start
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4Nj
-MyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1
-NiwxMzc5NjkzNDk5LDc1NTUyOTU1OF19
+eyJoaXN0b3J5IjpbNjQ2NDgxNzY1LDE3ODAxNjY3NTQsMjIzMj
+k1NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgy
+LDE1MzgzNjQ0NTYsMTM3OTY5MzQ5OSw3NTU1Mjk1NThdfQ==
 -->
