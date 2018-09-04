@@ -30,18 +30,19 @@ Image: The quote element is the offer in both currencies € and $
 
 ![The calculation](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/theCalculation.png)
 Image: calc and payment offer transparency over the offered prices and costs
-
+## Staging the development process
+We s
 
 
 ### If you did not find the time to read all that stuff
-Otemba offers a ready to use CORS enabled REST server that offers the payment processing via PayPal for new or existing contracts in Ethereum.  so that you do not need to implement a backend for your customers
+Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new or existing contracts in Ethereum.  That means that you do not need to implement a backend.
 
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzc2NTAyMSwzMjI2Mjc4NTAsMTg2MD
+eyJoaXN0b3J5IjpbMTk2MzYzNTk0NSwzMjI2Mjc4NTAsMTg2MD
 U4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1NDExLDQ1NjU3OTQ5
 NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMTc4MDE2Njc1NCwyMj
 MyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAwNzIzLC02MzY3NDA2
