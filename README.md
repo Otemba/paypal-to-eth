@@ -1,5 +1,7 @@
 <h1 id="welcome-to-otemba">Welcome to Otemba!</h1>
-<p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for users without Ethers.</p>
+<p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for the users of your website. Instead of the need for Ethers it offers a PayPal dialog.</p>
+<p>You need basic html-skills like creating a web page, issue ajax calls and the <a href="https://github.com/Otemba/paypal-to-eth/tree/master/mining">interaction with a (pre-defined) json</a>.</p>
+<p>A sample test page with a PayPal sandbox account will be available soon.</p>
 <h1 id="release-plan">Release plan</h1>
 
 <table>
