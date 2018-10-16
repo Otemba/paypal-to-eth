@@ -75,7 +75,7 @@
 <td>0.0.9</td>
 <td>Vouchers</td>
 <td>1.2019</td>
-<td>Returning customers and corparate use</td>
+<td>Returning customers and corporate use</td>
 <td>Planned</td>
 </tr>
 </tbody>
