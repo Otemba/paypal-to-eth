@@ -57,7 +57,7 @@ Image: The transaction-id is the end result of the dialog.
 Image: If you want more details than continue the non-blocking ping-pong till the miners of Ethereum finished their work.
 
 ## Staging the development process
-We suggest that you start in test mode using "localhostOtemba" and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox account with PayPal. 
+We suggest that you start in test mode using "localhostOtemba" and skip the slow PayPal dialog in stage one. You can control this with the json-element "test". When you are done and want to see the payment in practice, then please contact us for a sandbox account with PayPal. (admin@otemba.io)
 
 # If you did not find the time to read all that stuff
 Otemba offers a ready to use CORS enabled REST server that offers the payment processing and mining via PayPal for new Contracts in Ethereum.  That means that you do not need to implement a backend yourself.
@@ -70,7 +70,7 @@ You will need a contract's "ABI" and "data" that you may copy from the very smar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM2NzY4MTYsMjg3MDU0MTgyLDEwOT
+eyJoaXN0b3J5IjpbLTEyMDE3NTIzMzYsMjg3MDU0MTgyLDEwOT
 Y4MDA5Nyw2NTc4MTUyMzMsMTg3MTYzOTc4NCwtMjA5MzM1NjEz
 NCwxODkyMTMzNzYzLDE1ODMzODIzMzcsMzIyNjI3ODUwLDE4Nj
 A1ODczMDMsMTU2MDUxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0
