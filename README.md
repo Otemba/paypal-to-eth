@@ -71,5 +71,12 @@
 <td>Change the state of existing Contracts</td>
 <td>Planned</td>
 </tr>
+<tr>
+<td>0.0.8</td>
+<td>Vouchers</td>
+<td>1.2019</td>
+<td>Returning customers and corparate use</td>
+<td>Planned</td>
+</tr>
 </tbody>
 </table>
