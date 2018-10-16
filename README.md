@@ -72,7 +72,7 @@
 <td>Planned</td>
 </tr>
 <tr>
-<td>0.0.8</td>
+<td>0.0.9</td>
 <td>Vouchers</td>
 <td>1.2019</td>
 <td>Returning customers and corparate use</td>
