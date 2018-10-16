@@ -54,7 +54,7 @@
 <td>0.0.6</td>
 <td>Getters</td>
 <td>10.2018</td>
-<td>Read the state of existing Contracts at the time of deployment / mining</td>
+<td>Read the state of existing Contracts set at the time of deployment / mining</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
