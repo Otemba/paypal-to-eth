@@ -1,5 +1,5 @@
 <h1 id="welcome-to-otemba">Welcome to Otemba!</h1>
-<p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain.</p>
+<p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for users without Ethers.</p>
 <h1 id="release-plan">Release plan</h1>
 
 <table>
@@ -52,7 +52,7 @@
 <td>0.0.6</td>
 <td>Getters</td>
 <td>10.2018</td>
-<td>Read the state of existing Contracts</td>
+<td>Read the state of existing Contracts at the time of deployment / mining</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
