@@ -1,6 +1,9 @@
 ﻿# paypal-to-eth
 Mining new Contracts in Ethereum without the need for an account by offering a PayPal transaction in a web dialog. 
 
+	// mode "liftoff" for mining new Contracts
+	"flow" : "liftoff",
+
 ## Basic concept
 Any webpage may start a dialog by sending and receiving a json file. TODO example
 
@@ -64,12 +67,13 @@ You will need a contract's ABI and data that you may copy from the very smart co
 
  
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDA4NzU3OSwxMDk2ODAwOTcsNjU3OD
-E1MjMzLDE4NzE2Mzk3ODQsLTIwOTMzNTYxMzQsMTg5MjEzMzc2
-MywxNTgzMzgyMzM3LDMyMjYyNzg1MCwxODYwNTg3MzAzLDE1Nj
-A1MTI4ODUsLTE4NTc2ODU0MTEsNDU2NTc5NDk3LDExOTU3MTQ4
-MzksLTExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUyLC0xND
-g2MzIwMzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0
-NDU2XX0=
+eyJoaXN0b3J5IjpbMjg3MDU0MTgyLDEwOTY4MDA5Nyw2NTc4MT
+UyMzMsMTg3MTYzOTc4NCwtMjA5MzM1NjEzNCwxODkyMTMzNzYz
+LDE1ODMzODIzMzcsMzIyNjI3ODUwLDE4NjA1ODczMDMsMTU2MD
+UxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0OTcsMTE5NTcxNDgz
+OSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMjIzMjk1NTIsLTE0OD
+YzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQwNjgyLDE1MzgzNjQ0
+NTZdfQ==
 -->
