@@ -19,7 +19,7 @@
 <td>0.0.1</td>
 <td>PayPal to Ethereum</td>
 <td>6.2018</td>
-<td>Initial POC</td>
+<td>Initial POC enables CORS</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
