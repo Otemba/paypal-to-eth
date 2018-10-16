@@ -1,8 +1,10 @@
 ﻿# paypal-to-eth
-Mining in Ethereum without the need for an account by offering a PayPal transaction in a web dialog.
+Mining new Contracts in Ethereum without the need for an account by offering a PayPal transaction in a web dialog. 
+
 ## Basic concept
 Any webpage may start a dialog by sending and receiving a json file. TODO example
-The dialog is a ping-pong between the browser of your user and the CORS-enabled server of Otemba.
+
+The dialog is a non-blocking ping-pong between the browser of your user and the CORS-enabled server of Otemba.
 
 ![States of a happy flow](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/statesWithText.png)
 
@@ -63,11 +65,11 @@ You will need a contract's ABI and data that you may copy from the very smart co
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjgwMDk3LDY1NzgxNTIzMywxODcxNj
-M5Nzg0LC0yMDkzMzU2MTM0LDE4OTIxMzM3NjMsMTU4MzM4MjMz
-NywzMjI2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xOD
-U3Njg1NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1
-NjMsMTc4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtND
-EwMDAwNzIzLC02MzY3NDA2ODIsMTUzODM2NDQ1NiwxMzc5Njkz
-NDk5XX0=
+eyJoaXN0b3J5IjpbMTg3NDA4NzU3OSwxMDk2ODAwOTcsNjU3OD
+E1MjMzLDE4NzE2Mzk3ODQsLTIwOTMzNTYxMzQsMTg5MjEzMzc2
+MywxNTgzMzgyMzM3LDMyMjYyNzg1MCwxODYwNTg3MzAzLDE1Nj
+A1MTI4ODUsLTE4NTc2ODU0MTEsNDU2NTc5NDk3LDExOTU3MTQ4
+MzksLTExNjA1MzU2MywxNzgwMTY2NzU0LDIyMzI5NTUyLC0xND
+g2MzIwMzIwLC00MTAwMDA3MjMsLTYzNjc0MDY4MiwxNTM4MzY0
+NDU2XX0=
 -->
