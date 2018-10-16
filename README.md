@@ -26,7 +26,7 @@
 <td>0.0.2</td>
 <td>Non blocking dialog</td>
 <td>7.2018</td>
-<td>Archictectural concept</td>
+<td>Architectural concept</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
