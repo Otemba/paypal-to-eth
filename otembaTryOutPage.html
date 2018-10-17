@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>ETH - PayPal Payment provider title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+	function prettyPrintJson(dialog) {
+ 		$("#errors").empty();
+		document.getElementById('errors').appendChild(createUL(dialog.errorReport));
+ 		document.getElementById("jsonShowPanel").innerHTML = JSON.stringify(
+				dialog, undefined, 2);
+	}
+
+	// test: please note that skipping PayPal is ignored when you do not test on ropsten
+	var dialog = {
+		"test" : {
+			"ethereum" : "localhostOtemba",
+			"PayPal" : "skip"
+		},
+		"flow": "liftoff",
+		"ABI" : [ {
+			"constant" : true,
+			"inputs" : [],
+			"name" : "hash",
+			"outputs" : [ {
+				"name" : "",
+				"type" : "bytes32"
+			} ],
+			"payable" : false,
+			"stateMutability" : "view",
+			"type" : "function"
+		}, {
+			"constant" : true,
+			"inputs" : [],
+			"name" : "timestamp",
+			"outputs" : [ {
+				"name" : "",
+				"type" : "uint256"
+			} ],
+			"payable" : false,
+			"stateMutability" : "view",
+			"type" : "function"
+		}, {
+			"inputs" : [ {
+				"name" : "keccakHash",
+				"type" : "bytes32"
+			} ],
+			"payable" : false,
+			"stateMutability" : "nonpayable",
+			"type" : "constructor"
+		} ],
+		"deploy" : {
+			"data" : "0x6060604052341561000f57600080fd5b604051602080610126833981016040528080519060200190919050508060018160001916905550426000819055505060da8061004c6000396000f3006060604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806309bd5a6014604e578063b80777ea14607c575b600080fd5b3415605857600080fd5b605e60a2565b60405180826000191660001916815260200191505060405180910390f35b3415608657600080fd5b608c60a8565b6040518082815260200191505060405180910390f35b60015481565b600054815600a165627a7a7230582003d3f15773ecc1251d7f049c44679db0eed68cdacc36ac4c77497a8671cf99680029",
+			"arguments" : [ "0x06b3dfaec148fb1bb2b066f10ec285e7c9bf402ab32aa78a5d38e34566810cd2" ]
+		}
+	};
+
+	$(document).ready(function() {
+
+						prettyPrintJson(dialog);
+						
+						const urlToOtemba = "http://otemba.io/voucherService";
+
+						$("#triggerDialog-button").click(function() {
+								$.ajax(urlToOtemba, {
+								    data : JSON.stringify(dialog),
+								    contentType : 'application/json',
+								    type : 'POST',
+									success: function(data, status) {
+										dialog = data;
+										prettyPrintJson(dialog);
+										$('#triggerDialog-button').hide();
+										if (dialog.test !== undefined && dialog.test.PayPal === "skip") {
+											$('#triggerWithoutPayment-button').show();
+										} else {
+											$('#triggerDialog-button').hide();
+											showPayPal();
+										}
+									}
+								});
+							});
+						
+						$("#triggerWithoutPayment-button").click(function() {
+								$.ajax(urlToOtemba, {
+								    data : JSON.stringify(dialog),
+								    contentType : 'application/json',
+								    type : 'POST',
+									success: function(data, status) {
+										dialog = data;
+										prettyPrintJson(dialog);
+										$('#triggerWithoutPayment-button').hide();
+										$('#triggerDisplayMining-button').show();
+									}
+								});
+							});
+
+						$("#triggerDisplayMining-button").click(function() {
+								$.ajax(urlToOtemba, {
+								    data : JSON.stringify(dialog),
+								    contentType : 'application/json',
+								    type : 'POST',
+									success: function(data, status) {
+										dialog = data;
+										prettyPrintJson(dialog);
+										$('#triggerDisplayMining-button').hide();
+									}
+								});
+							});
+						
+					}); // $(document).ready
+
+	function showPayPal() {
+
+		paypal.Button
+				.render(
+						{
+							env : 'sandbox', // Or 'sandbox', or production
+
+							// Otemba specific, do not change
+							client : {
+								sandbox : 'AXJKY7Db4ASc-W0nLwUfAvw7U_h-zxGjyNM87aepLD2ZFHjjLC1FYCmUoN7MYZ3uuxL254cOSoj-aW6O',
+								production : 'AXNf3Yeho9wtSf32RdJ6oIiEBucBRF7GyLO-ZMMXpQUKTd2LnkaB6AIRWBxMpoNFwqDu9KDEyk9y8G9A'
+							},
+
+							// Show the buyer a 'Pay Now' button in the checkout flow
+							commit: true,
+
+							// payment() is called when the button is clicked
+							payment: function(data, actions) {
+								// Otemba specific, do not change
+								var payment = {
+									"payment" : dialog.payment
+								};
+							    return actions.payment.create(payment);
+							},
+
+							// onAuthorize() is called when the buyer approves the payment
+							onAuthorize: function(data, actions) {
+
+								// Otemba specific do not change
+								dialog.onAuthorize = data;
+								
+								// You are free to change this
+								prettyPrintJson(dialog);
+
+							    // Otemba specific do not change
+							    return actions.payment.execute().then(function() {
+									$.ajax(urlToOtemba, {
+									    data : JSON.stringify(dialog),
+									    contentType : 'application/json',
+									    type : 'POST',
+										success: function(data, status) {
+											dialog = data;
+											prettyPrintJson(dialog);
+											$('#paypal-button-container').hide();
+											$('#triggerDisplayMining-button').show();
+										}
+									});
+							    });
+							},
+
+							onCancel : function(data, actions) {
+								console.log('Buyer cancelled the payment');
+								/* 
+								 * Buyer cancelled the payment 
+								 */
+							},
+
+							onError : function(err) {
+								console.log('Something wrongs: ' + err);
+								/* 
+								 * An error occurred during the transaction 
+								 */
+							}
+						}, '#paypal-button-container');
+
+	} // showPayPal()
+	
+	function createUL(json) {
+		
+	    var list = document.createElement('ul');
+	    
+	    if (json === undefined || json.length === 0) { return list; }
+	
+	    for (var i = 0; i < json.length; i++){
+	    	var item = document.createElement('li');
+	        item.appendChild(document.createTextNode(json[i]));
+	        list.appendChild(item);
+	    }
+	    return list;
+	}
+	
+</script>
+
+</head>
+
+<body>
+	<div id="paypal-button-container"></div>
+
+	<button id="triggerDialog-button">Send a quote request</button>
+	<button id="triggerWithoutPayment-button" style="display: none;">Start
+		mining without the PayPal-button HTTP POST</button>
+	<button id="triggerDisplayMining-button" style="display: none;">Request
+		a mining status by HTTP POST</button>
+	<div id="errors"></div>
+	<pre id="jsonShowPanel"></pre>
+
+
+</body>
+</html>
