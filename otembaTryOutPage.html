@@ -20,7 +20,8 @@
 				dialog, undefined, 2);
 	}
 
-	// test: please note that skipping PayPal is ignored when you do not test on ropsten
+	// test.ethereum: "localhostOtemba" runs ganache-cli on Otemba.io which is nice for automated tests
+	// test.PayPal: "skip" helps testers who want to isolate the Otemaba.io functionality
 	var dialog = {
 		"test" : {
 			"ethereum" : "localhostOtemba",
@@ -70,6 +71,7 @@
 						
 						const urlToOtemba = "http://otemba.io/voucherService";
 
+						// typical use of Otemba.io
 						$("#triggerDialog-button").click(function() {
 								$.ajax(urlToOtemba, {
 								    data : JSON.stringify(dialog),
@@ -116,8 +118,9 @@
 								});
 							});
 						
-					}); // $(document).ready
+	}); // $(document).ready
 
+	// this was taken from PayPal showing a standard express payment processing
 	function showPayPal() {
 
 		paypal.Button
@@ -125,7 +128,7 @@
 						{
 							env : 'sandbox', // Or 'sandbox', or production
 
-							// Otemba specific, do not change
+							// Otemba specific, changes cause fails in the processing due to payment checks on Otemba.io
 							client : {
 								sandbox : 'AXJKY7Db4ASc-W0nLwUfAvw7U_h-zxGjyNM87aepLD2ZFHjjLC1FYCmUoN7MYZ3uuxL254cOSoj-aW6O',
 								production : 'AXNf3Yeho9wtSf32RdJ6oIiEBucBRF7GyLO-ZMMXpQUKTd2LnkaB6AIRWBxMpoNFwqDu9KDEyk9y8G9A'
@@ -185,6 +188,7 @@
 
 	} // showPayPal()
 	
+	// a helper for showing errors
 	function createUL(json) {
 		
 	    var list = document.createElement('ul');
