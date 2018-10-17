@@ -5,9 +5,9 @@ Mining new Contracts in Ethereum without the need for an account by offering a P
 	"flow" : "liftoff",
 
 ## Basic concept
-Any webpage may start a dialog by sending and receiving a json file. TODO example
+Any webpage may start a dialog by sending and receiving a json file. [You may want to open the trial page.](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html)
 
-The dialog is a non-blocking ping-pong between the browser of your user and the CORS-enabled server of Otemba.
+If you use the The dialog is a non-blocking ping-pong between the browser of your user and the CORS-enabled server of Otemba.
 
 ![States of a happy flow](https://raw.githubusercontent.com/Otemba/paypal-to-eth/master/images/statesWithText.png)
 
@@ -70,11 +70,11 @@ You will need a contract's "ABI" and "data" that you may copy from the very smar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE3NTIzMzYsMjg3MDU0MTgyLDEwOT
-Y4MDA5Nyw2NTc4MTUyMzMsMTg3MTYzOTc4NCwtMjA5MzM1NjEz
-NCwxODkyMTMzNzYzLDE1ODMzODIzMzcsMzIyNjI3ODUwLDE4Nj
-A1ODczMDMsMTU2MDUxMjg4NSwtMTg1NzY4NTQxMSw0NTY1Nzk0
-OTcsMTE5NTcxNDgzOSwtMTE2MDUzNTYzLDE3ODAxNjY3NTQsMj
-IzMjk1NTIsLTE0ODYzMjAzMjAsLTQxMDAwMDcyMywtNjM2NzQw
-NjgyXX0=
+eyJoaXN0b3J5IjpbMTc3OTE1MTU0OSwtMTIwMTc1MjMzNiwyOD
+cwNTQxODIsMTA5NjgwMDk3LDY1NzgxNTIzMywxODcxNjM5Nzg0
+LC0yMDkzMzU2MTM0LDE4OTIxMzM3NjMsMTU4MzM4MjMzNywzMj
+I2Mjc4NTAsMTg2MDU4NzMwMywxNTYwNTEyODg1LC0xODU3Njg1
+NDExLDQ1NjU3OTQ5NywxMTk1NzE0ODM5LC0xMTYwNTM1NjMsMT
+c4MDE2Njc1NCwyMjMyOTU1MiwtMTQ4NjMyMDMyMCwtNDEwMDAw
+NzIzXX0=
 -->
