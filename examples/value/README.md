@@ -18,7 +18,7 @@ The following Contract [StringWithTransfer.sol](https://github.com/Otemba/paypal
         }
     }
 Source: In the constructor "value" will be transferred upon mining.
-To achieve that, you must add value to your dialog.json. Please note the value property.
+To achieve that, you must add value to your dialog.json. Please note the value property in the example.
 
     {
     	"flow": "liftoff",
@@ -36,5 +36,5 @@ To achieve that, you must add value to your dialog.json. Please note the value p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MTc2MDA0LC0zNjU5MzkxODhdfQ==
+eyJoaXN0b3J5IjpbMzAwMTkwOTY2LC0zNjU5MzkxODhdfQ==
 -->
