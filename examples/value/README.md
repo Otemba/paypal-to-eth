@@ -34,11 +34,11 @@ To achieve that, you must add value to your dialog.json. Please note the value p
     		"value" : "30000000000000000"
     	}
     }
-Source: Please note the last element "value". Please note the *string* value of it that is a number in Wei. 
+Source: Please note the last element "value". The *string* value of it that is a *number in Wei*. 
 ### Integrate the examples above
 For trying out, you may want to edit the [html page for trying out](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html) by replacing the `var dialog` with the [example json](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/happyFlowCreateContractWithValue.json) (same as above).
 ### If you did not find the time to read this
 You may want to try out the sample.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODYyMjI4MiwtMzY1OTM5MTg4XX0=
+eyJoaXN0b3J5IjpbNTg2NTk2MTIwLC0zNjU5MzkxODhdfQ==
 -->
