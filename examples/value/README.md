@@ -38,7 +38,8 @@ Source: Please note the last element "value". The *string* value of it that is a
 ### Integrate the examples above
 For trying out, you may want to edit the [html page for trying out](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html) by replacing the `var dialog` with the [example json](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/happyFlowCreateContractWithValue.json) (same as above).
 ### If you did not find the time to read this
-You may want to try out the sample.
+You may want to try out the integrated [sample](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NTk2MTIwLC0zNjU5MzkxODhdfQ==
+eyJoaXN0b3J5IjpbMTUzOTU2MDMwNSw1ODY1OTYxMjAsLTM2NT
+kzOTE4OF19
 -->
