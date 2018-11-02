@@ -147,7 +147,7 @@ Source: dialog.json
     }
 Source: dialog.json
 ### Integrate
-You may want to copy one of the dialog.json and replace the `var dialog` in the sample html file. As a result you will be able to inspect the values.
+You may want to copy one of the dialog.json and replace the `var dialog` in the [sample html file](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html). As a result you will be able to inspect the values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTQ4MTk4MCw3MzM5NDEzNzRdfQ==
+eyJoaXN0b3J5IjpbLTkxMjY1ODI0LDczMzk0MTM3NF19
 -->
