@@ -36,7 +36,7 @@ To achieve that, you must add value to your dialog.json. Please note the value p
     }
 Source: Please note the last element "value". Please note the *string* value of it that is a number in Wei. 
 ### Integrate the examples above
-
+For trying out, you may want to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDUyNTA3NywtMzY1OTM5MTg4XX0=
+eyJoaXN0b3J5IjpbLTMxNzc5MjA2MCwtMzY1OTM5MTg4XX0=
 -->
