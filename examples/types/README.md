@@ -1,5 +1,5 @@
 # Types
-Types are confusing. In most cases you need to provide string values. In some cases not. The following example shows what you need to do.
+Where you ex string values. In some cases not. The following example shows what you need to do.
 ### Sample Contract
 
     pragma solidity ^0.4.25;
@@ -149,5 +149,5 @@ Source: dialog.json
 ### Integrate
 You may want to copy one of the dialog.json and replace the `var dialog` in the [sample html file](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html). As a result you will be able to inspect the values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjY1ODI0LDczMzk0MTM3NF19
+eyJoaXN0b3J5IjpbLTMxODUzMDgyMiw3MzM5NDEzNzRdfQ==
 -->
