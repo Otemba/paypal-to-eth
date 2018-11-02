@@ -61,15 +61,15 @@
 <td>0.0.7</td>
 <td>Value on deploment</td>
 <td>11.2018</td>
-<td>Enables send Ethers</td>
-<td>Doing</td>
+<td>[Enables send Ethers](./examples/value/README.md)</td>
+<td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
 <td>0.0.8</td>
 <td>Setters</td>
 <td>12.2018</td>
 <td>Change the state of existing Contracts</td>
-<td>Planned</td>
+<td>Doing</td>
 </tr>
 <tr>
 <td>0.0.9</td>
@@ -80,3 +80,6 @@
 </tr>
 </tbody>
 </table>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjk0MDAwNjc4XX0=
+-->
