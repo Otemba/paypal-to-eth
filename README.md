@@ -61,7 +61,7 @@
 <td>0.0.7</td>
 <td>Value on deploment</td>
 <td>11.2018</td>
-<td>[Enables send Ethers](./examples/value/README.md)</td>
+<td>[Enables send Ethers](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/README.md)</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
@@ -81,5 +81,5 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0MDAwNjc4XX0=
+eyJoaXN0b3J5IjpbLTY5NTk5NjEyMV19
 -->
