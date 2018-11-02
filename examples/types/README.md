@@ -128,7 +128,7 @@ Note the elements "flow" and "arguments".
     }
 Source: dialog.json
 ### Inspect a mined Contract
-Note the elements "flow" and the miss "arguments".
+Note the element "flow" and the missing element "arguments".
 
     {
     	"flow": [ { "type":"inspect" , "method":"getText" },
@@ -151,5 +151,5 @@ Source: dialog.json
 ### Integrate
 You may want to copy one of the dialog.json and replace the `var dialog` in the [sample html file](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html). As a result you will be able to inspect the values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzk2NDA4Niw3MzM5NDEzNzRdfQ==
+eyJoaXN0b3J5IjpbMTYxMDM4OTYzMSw3MzM5NDEzNzRdfQ==
 -->
