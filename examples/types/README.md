@@ -147,7 +147,7 @@ Source: dialog.json
     }
 Source: dialog.json
 ### Integrate
-You may want to copy one of the dialog.json and re
+You may want to copy one of the dialog.json and replace the `var dialog` in the sample html file. As a result you will be able to inspect the values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMwNTY5ODIsNzMzOTQxMzc0XX0=
+eyJoaXN0b3J5IjpbMTA2OTQ4MTk4MCw3MzM5NDEzNzRdfQ==
 -->
