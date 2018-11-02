@@ -1,6 +1,6 @@
 # Value
 If you need to transfer Ethers upon the creation of a new Contract, then you are in the right place.
-The following Contract "StringWithTransfer.sol" is available in this directory.
+The following Contract [StringWithTransfer.sol](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/StringWithTransfer.sol) is available in this directory.
 
     pragma solidity ^0.4.0;
     
@@ -18,8 +18,9 @@ The following Contract "StringWithTransfer.sol" is available in this directory.
         }
     }
 Source: In the constructor "value" will be transferred upon mining.
+To achieve that, you must add value to your dialog.json. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTkzOTE4OF19
+eyJoaXN0b3J5IjpbLTE0MjU5MTMwNzgsLTM2NTkzOTE4OF19
 -->
