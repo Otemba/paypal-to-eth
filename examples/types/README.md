@@ -125,7 +125,9 @@ Source: [Sample Contract Eternal.](https://github.com/Otemba/paypal-to-eth/blob/
     		"arguments" : [ "Hello Otemba", 456, 567, false, "0x1234", "0x02dfdc1c3e", ["0xA234","0xB234"] ]
     	}
     }
-Source: 
+Source: dialog.json
+### Inspect a mined Contract
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMTkwMDQzXX0=
+eyJoaXN0b3J5IjpbNzMzOTQxMzc0XX0=
 -->
