@@ -54,7 +54,7 @@
 <td>0.0.6</td>
 <td>Getters</td>
 <td>10.2018</td>
-<td><a href="">Inspect</a the state of existing Contracts <a href="https://github.com/Otemba/paypal-to-eth/tree/master/examples/types#create-a-new-contract">set</a> at the time of deployment / mining</td>
+<td><a href="https://github.com/Otemba/paypal-to-eth/tree/master/examples/types#inspect-a-mined-contract">Inspect</a> the state of existing Contracts <a href="https://github.com/Otemba/paypal-to-eth/tree/master/examples/types#create-a-new-contract">set</a> at the time of deployment / mining</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
@@ -81,5 +81,5 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTM3MzIwNCwtNjczNzE1MTY3XX0=
+eyJoaXN0b3J5IjpbMjA5MjA5MjI3NCwtNjczNzE1MTY3XX0=
 -->
