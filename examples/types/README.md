@@ -112,6 +112,7 @@ Where you expect it, you string values. The following example shows what you nee
     ]
 Source: [Sample Contract Eternal.](https://github.com/Otemba/paypal-to-eth/blob/master/examples/types/EternalStringWithMultipleInspect.sol)
 ### Create a new Contract
+Note the elements "flow" and "arguments".
 
     {
     	"flow": "liftoff",
@@ -127,6 +128,7 @@ Source: [Sample Contract Eternal.](https://github.com/Otemba/paypal-to-eth/blob/
     }
 Source: dialog.json
 ### Inspect a mined Contract
+Note the elements "flow" and the miss "arguments".
 
     {
     	"flow": [ { "type":"inspect" , "method":"getText" },
@@ -149,5 +151,5 @@ Source: dialog.json
 ### Integrate
 You may want to copy one of the dialog.json and replace the `var dialog` in the [sample html file](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html). As a result you will be able to inspect the values.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjUzMzY1NSw3MzM5NDEzNzRdfQ==
+eyJoaXN0b3J5IjpbMTAyNzk2NDA4Niw3MzM5NDEzNzRdfQ==
 -->
