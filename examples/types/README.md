@@ -110,7 +110,7 @@ Types are confusing. In most cases you need to provide string values. In some ca
     		"type": "constructor"
     	}
     ]
-Source:
+Source: Sample Contract Eternal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjM4Njg1NF19
+eyJoaXN0b3J5IjpbLTEzMTM4MTExNjNdfQ==
 -->
