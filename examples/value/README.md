@@ -36,7 +36,9 @@ To achieve that, you must add value to your dialog.json. Please note the value p
     }
 Source: Please note the last element "value". Please note the *string* value of it that is a number in Wei. 
 ### Integrate the examples above
-For trying out, you may want to edit the [html page for trying out](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html) replace the `var dialog` with the [example json](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/happyFlowCreateContractWithValue.json) (same as above).
+For trying out, you may want to edit the [html page for trying out](https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html) by replacing the `var dialog` with the [example json](https://github.com/Otemba/paypal-to-eth/blob/master/examples/value/happyFlowCreateContractWithValue.json) (same as above).
+### If you do not find the time to read this
+You may want to pick the sample 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODc3NzE0NCwtMzY1OTM5MTg4XX0=
+eyJoaXN0b3J5IjpbMTUwMDk1OTE0LC0zNjU5MzkxODhdfQ==
 -->
