@@ -18,9 +18,23 @@ The following Contract [StringWithTransfer.sol](https://github.com/Otemba/paypal
         }
     }
 Source: In the constructor "value" will be transferred upon mining.
-To achieve that, you must add value to your dialog.json. 
+To achieve that, you must add value to your dialog.json. Please note the value property.
+
+    {
+    	"flow": "liftoff",
+    	"test": {
+    		"ethereum": "localhostOtemba",
+    		"PayPal": "skip"
+    	},
+    	"ABI":[{"constant":true,"inputs":[],"name":"getTitle","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"titleAsString","type":"string"}],"payable":true,"stateMutability":"payable","type":"constructor"}],
+    	"deploy":{
+    		"data": "0x6080604...",
+    		"arguments" : [ "Hello Jelle" ] ,
+    		"value" : "30000000000000000"
+    	}
+    }
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU5MTMwNzgsLTM2NTkzOTE4OF19
+eyJoaXN0b3J5IjpbMzM1MTc2MDA0LC0zNjU5MzkxODhdfQ==
 -->
