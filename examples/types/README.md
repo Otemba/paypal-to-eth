@@ -146,6 +146,8 @@ Source: dialog.json
     	}
     }
 Source: dialog.json
+### Integrate
+You may want to copy one of the dialog.json and re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzU3NzI1Miw3MzM5NDEzNzRdfQ==
+eyJoaXN0b3J5IjpbLTE1MDMwNTY5ODIsNzMzOTQxMzc0XX0=
 -->
