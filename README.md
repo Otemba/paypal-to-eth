@@ -54,7 +54,7 @@
 <td>0.0.6</td>
 <td>Getters</td>
 <td>10.2018</td>
-<td>Read the state of existing Contracts set at the time of deployment / mining</td>
+<td>Read the state of existing Contracts <a href="">set< at the time of deployment / mining</td>
 <td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
@@ -81,5 +81,5 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzcxNTE2N119
+eyJoaXN0b3J5IjpbLTkyNDU0OTgzNiwtNjczNzE1MTY3XX0=
 -->
