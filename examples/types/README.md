@@ -110,7 +110,8 @@ Types are confusing. In most cases you need to provide string values. In some ca
     		"type": "constructor"
     	}
     ]
-Source: Sample Contract Eternal.
+Source: [Sample Contract Eternal.](https://github.com/Otemba/paypal-to-eth/blob/master/examples/types/EternalStringWithMultipleInspect.sol)
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM4MTExNjNdfQ==
+eyJoaXN0b3J5IjpbMTkwMzE0ODkwN119
 -->
