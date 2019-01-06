@@ -1,10 +1,13 @@
-﻿<h1 id="welcome-to-otemba">Welcome to Otemba!</h1>
+---
 
+
+---
+
+<p></p><h1 id="welcome-to-otemba">Welcome to Otemba!</h1><p></p>
 <p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for the users of your website. Instead of the need for Ethers it offers a PayPal dialog.</p>
 <p>You need basic html-skills like creating a web page, issue ajax calls and the <a href="https://github.com/Otemba/paypal-to-eth/tree/master/mining">interaction with a (pre-defined) json</a>.</p>
 <p><a href="https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html">The sample html page</a> is an easy start to begin. It runs on your localhost.</p>
 <h1 id="release-plan">Release plan</h1>
-
 <table>
 <thead>
 <tr>
@@ -77,10 +80,8 @@
 <td>Vouchers</td>
 <td>2.2019</td>
 <td>Returning customers and corporate use</td>
-<td>Planned</td>
+<td>In progress</td>
 </tr>
 </tbody>
 </table>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExMDAyMzFdfQ==
--->
+
