@@ -149,16 +149,16 @@ Note the element "flow" and the missing element "arguments".
     }
 Source: dialog.json
 ### Update a mined Contract
-Note the element "flow" has a single element of type update. You may mix one update with several inspect elements. The parameters must be seperated by a ",".
+Note the source: the element "flow" has one single element of type update (more than one throws an error). You may mix one update with several inspect elements. The parameters must be seperated by a ",".
 
     {
     	"flow": [ { "type":"update" , "method":"setText", "parameters": ["updated a single string value"] },
-        		  			{ "type":"inspect" , "method":"getInteger" },
-        		  			{ "type":"inspect" , "method":"getUnsigned" },
-        		  			{ "type":"inspect" , "method":"getBoolean" },
-        		  			{ "type":"inspect" , "method":"getByteS" },
-        		  			{ "type":"inspect" , "method":"getByteS32" },
-        		  			{ "type":"inspect" , "method":"getByteArray" }],
+        		  { "type":"inspect" , "method":"getInteger" },
+        		  { "type":"inspect" , "method":"getUnsigned" },
+        		  { "type":"inspect" , "method":"getBoolean" },
+        		  { "type":"inspect" , "method":"getByteS" },
+        		  { "type":"inspect" , "method":"getByteS32" },
+        		  { "type":"inspect" , "method":"getByteArray" }],
     	"test": {
     		"ethereum": "localhostOtemba",
     		"PayPal": "skip"
