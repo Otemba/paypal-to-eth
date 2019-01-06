@@ -1,7 +1,5 @@
 ﻿<h1 id="welcome-to-otemba">Welcome to Otemba!</h1>
 
-## Important note: For the release 0.08 (setters), we are shut down Sunday, January 6, 2019 from 12:00 to 13:00 (CET). Thank you for your understanding.
-
 <p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for the users of your website. Instead of the need for Ethers it offers a PayPal dialog.</p>
 <p>You need basic html-skills like creating a web page, issue ajax calls and the <a href="https://github.com/Otemba/paypal-to-eth/tree/master/mining">interaction with a (pre-defined) json</a>.</p>
 <p><a href="https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html">The sample html page</a> is an easy start to begin. It runs on your localhost.</p>
@@ -72,7 +70,7 @@
 <td>Setters</td>
 <td>12.2018</td>
 <td>Change the state of existing Contracts</td>
-<td>Doing</td>
+<td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 <tr>
 <td>0.0.9</td>
@@ -84,5 +82,5 @@
 </tbody>
 </table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDA4Nzk3MF19
+eyJoaXN0b3J5IjpbLTIwNzExMDAyMzFdfQ==
 -->
