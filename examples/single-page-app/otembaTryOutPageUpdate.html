@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>ETH - PayPal Payment provider title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/simple.css" rel="stylesheet" type="text/css">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="./json/deployJson.js"></script>
+<script type="text/javascript" src="./json/updateJson.js"></script>
+<script type="text/javascript" src="./src/showPayPal.js"></script>
+<script type="text/javascript" src="./src/nodeStates.js"></script>
+<script type="text/javascript" src="./src/steps.js"></script>
+
+<script type="text/javascript">
+
+	// show errors if any
+	function prettyPrintJson(dialog) {
+ 		$("#errors").empty();
+		document.getElementById('errors').appendChild(createUL(dialog.errorReport));
+ 		document.getElementById("jsonShowPanel").innerHTML = JSON.stringify(
+				dialog, undefined, 2);
+	}
+
+	// loaded from ./json
+	var deployDialog = deployContractDialog;
+	var updateDialog = updateContractDialog;
+
+	var dialog;
+	var contractAddress;
+
+	function getUrl() {
+		<!-- const getUrl() = "https://otemba.io/voucherService"; -->
+		var select = document.getElementById("server-selected");
+		var host = select.options[select.selectedIndex].value;
+		return "https://"+host+"/voucherService";
+	} 
+
+	var checkIfTestOrPayPal = function(dialog) {
+		if ( isTestMode(dialog) ) { return; }
+		// we need the PayPal button instead of the Step-3 button
+		if ( getStep(dialog) === 1 ) {
+			$('#triggerButton').hide();
+			showPayPal(triggerButtonFunction);
+		}
+		else {
+			$('#triggerButton').show();
+		}
+	}
+	
+	function replaceButtonWithPayPal() {
+		return new Promise((resolve, reject) => {
+			$("#triggerButton").hide();
+			if ( hasUpdate(dialog) ) {
+				showPayPal('#paypal-button-container-2');
+			}
+			else {
+				showPayPal('#paypal-button-container-1');
+			}
+		});
+	}
+	
+	function replacePayPalWithButton() {
+		return new Promise((resolve, reject) => {
+			$("#triggerButton").show();
+			if ( !hasUpdate(dialog) ) {
+				$("#paypal-button-container-1").hide();
+			} else {
+				$("#paypal-button-container-2").hide();
+			}
+		});
+	}
+	
+	function saveLatestAddressOfContract(dialog) {
+		if ( hasMiningStatusContractAddress(dialog) ) {
+			contractAddress = dialog.miningStatus.contractAddress;
+			$('#addressValue').html(contractAddress);
+			if ( !hasUpdate(dialog) ) {
+				$("#flushButton").show();
+			}
+			// $("#addressPanel").show();
+		}
+	}
+	
+	function buttonOrPayPalPromise(dialog) {
+		return new Promise((resolve, reject) => {
+			if ( (getStep(dialog) === 1 || getStep(dialog) === 4) && isProduction(dialog) ) {
+				return replaceButtonWithPayPal();
+			}
+			else {
+				return replacePayPalWithButton();
+			}
+		});
+	}
+		
+	// TODO
+	function setHint(element, text) {
+		
+	}
+	
+	function doStepsChainButtonOrPayPal(dialog) {
+		return new Promise((resolve, reject) => {
+			var step = "Step-"+getStep(dialog);
+			steps[step]();
+			hints[step](dialog);
+			return buttonOrPayPalPromise(dialog);
+		});
+	}
+	
+	var triggerButtonFunction = function() {
+		$.ajax(getUrl(), {
+		    data : JSON.stringify(dialog),
+		    contentType : 'application/json',
+		    type : 'POST',
+			success: function(data, status) {
+				dialog = data;
+				prettyPrintJson(dialog);
+				saveLatestAddressOfContract(dialog);
+				doStepsChainButtonOrPayPal(dialog).then();
+			}
+		});
+	};
+	
+	function flushButtonAndStartUpdateDialog() {
+		if ( contractAddress === undefined ) { return; } // no address, no updates :(
+		updateDialog.mining.contractAddress = dialog.miningStatus.contractAddress;
+		dialog = updateDialog;
+		setStepBase(3);
+		$("#flushButton").hide();
+		$("#triggerButton").text("Update "+contractAddress);
+	}
+
+	
+	$(document).ready(function() {
+		
+		dialog = deployDialog;
+		prettyPrintJson(dialog);
+
+			$("#remove-test-el-button").click(function() {
+			updateDialog.test = undefined;
+			dialog.test = undefined;
+			prettyPrintJson(dialog);
+		});
+
+		// typical use of Otemba.io
+		$("#triggerButton").click(triggerButtonFunction);
+		$("#flushButton").click(flushButtonAndStartUpdateDialog);
+		
+						
+	}); // $(document).ready
+
+	
+	// a helper for showing errors
+	function createUL(json) {
+		
+	    var list = document.createElement('ul');
+	    
+	    if (json === undefined || json.length === 0) { return list; }
+	
+		$("#selectMode").css("border-color", "red");
+
+	    for (var i = 0; i < json.length; i++){
+	    	var item = document.createElement('li');
+	        item.appendChild(document.createTextNode(json[i]));
+	        list.appendChild(item);
+	    }
+	    return list;
+	}
+	
+</script>
+
+	<script>
+	</script>
+
+</head>
+
+<body>
+	<div class="section center" id="selectMode">
+		<table class="center">
+			<tr>
+				<td>
+					<select id="server-selected">
+					  <option value="localhost:443">Localhost TLS</option>
+					  <option value="otemba.io:444">Pre-Release TLS</option>
+					  <option value="otemba.io:443">Production TLS</option>
+					  <option value="otemba.io:80">Production</option>
+					  <option value="otemba.io:81">Pre-Release</option>
+					  <option value="localhost:80">Localhost</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" name="show-hints-check-box" checked>Show progress and hints for the last action
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button id="remove-test-el-button">Remove test element from the request (will trigger PayPal payment in the conversation).</button>
+				</td>
+			</tr>
+		</table>
+		<button id="triggerButton">Get a quote for mining a new Contract</button>
+		<button id="flushButton" style="display: none;">Switch to update the Contract</button>
+		<div id="paypal-button-container-1"></div>
+		<div id="paypal-button-container-2"></div>
+	</div>
+	
+
+	<div id="deploy-panel" class="section center">
+		<table>
+			<tr>
+				<td>Quote received</td>
+				<td><img id="img1" src="./img/todo.png" ></td>
+				<td id="hint1" style="display: none;"></td>
+			</tr>
+			<tr>
+				<td>Mining started</td>
+				<td><img id="img2" src="./img/todo.png" ></td>
+				<td id="hint2" style="display: none;"></td>
+			</tr>
+			<tr>
+				<td>Mining done</td>
+				<td><img id="img3" src="./img/todo.png" ></td>
+				<td id="hint3" style="display: none;"></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="update-panel" class="section center">
+		<table>
+			<tr>
+				<td>Update-Quote received</td>
+				<td><img id="img4" src="./img/todo.png" ></td>
+				<td id="hint4" style="display: none;"></td>
+			</tr>
+			<tr>
+				<td>Update-Mining started</td>
+				<td><img id="img5" src="./img/todo.png" ></td>
+				<td id="hint5" style="display: none;"></td>
+			</tr>
+			<tr>
+				<td>Mining done</td>
+				<td><img id="img6" src="./img/todo.png" ></td>
+				<td id="hint6" style="display: none;"></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="errors"></div>
+	<pre id="jsonShowPanel"></pre>
+
+
+</body>
+</html>
