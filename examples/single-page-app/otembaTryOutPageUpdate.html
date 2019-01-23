@@ -18,11 +18,21 @@
 <script type="text/javascript">
 
 	// show errors if any
-	function prettyPrintJson(dialog) {
+	function uglyfyWhenError(dialog) {
  		$("#errors").empty();
-		document.getElementById('errors').appendChild(createUL(dialog.errorReport));
- 		document.getElementById("jsonShowPanel").innerHTML = JSON.stringify(
-				dialog, undefined, 2);
+ 		if ( hasErrors(dialog) ) {
+			document.getElementById('errors').appendChild(createUL(dialog.errorReport));
+			showRedBorder();
+ 		}
+	}
+	
+	function showRedBorder() {
+ 		$("#selectMode").css("border-color", "red");
+	}
+
+	// shows the json
+	function prettyPrintJson(dialog) {
+ 		document.getElementById("jsonShowPanel").innerHTML = JSON.stringify(dialog, undefined, 2);
 	}
 
 	// loaded from ./json
@@ -96,11 +106,6 @@
 		});
 	}
 		
-	// TODO
-	function setHint(element, text) {
-		
-	}
-	
 	function doStepsChainButtonOrPayPal(dialog) {
 		return new Promise((resolve, reject) => {
 			var step = "Step-"+getStep(dialog);
@@ -118,6 +123,7 @@
 			success: function(data, status) {
 				dialog = data;
 				prettyPrintJson(dialog);
+				uglyfyWhenError(dialog);
 				saveLatestAddressOfContract(dialog);
 				doStepsChainButtonOrPayPal(dialog).then();
 			}
@@ -159,8 +165,6 @@
 	    var list = document.createElement('ul');
 	    
 	    if (json === undefined || json.length === 0) { return list; }
-	
-		$("#selectMode").css("border-color", "red");
 
 	    for (var i = 0; i < json.length; i++){
 	    	var item = document.createElement('li');
