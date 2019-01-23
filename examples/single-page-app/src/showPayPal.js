@@ -57,6 +57,7 @@ function showPayPal(payPalContainer) {
 
 						onError : function(err) {
 							console.log('Something wrongs: ' + err);
+							showRedBorder();
 							/*
 							 * An error occurred during the transaction
 							 */
