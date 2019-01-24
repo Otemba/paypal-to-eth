@@ -126,6 +126,10 @@
 				uglyfyWhenError(dialog);
 				saveLatestAddressOfContract(dialog);
 				doStepsChainButtonOrPayPal(dialog).then();
+			},
+			error: function(error) {
+				// showRedBorder();
+				alert("not available: "+getUrl()); 
 			}
 		});
 	};
@@ -187,12 +191,10 @@
 			<tr>
 				<td>
 					<select id="server-selected">
-					  <option value="localhost:443">Localhost TLS</option>
-					  <option value="otemba.io:444">Pre-Release TLS</option>
 					  <option value="otemba.io:443">Production TLS</option>
 					  <option value="otemba.io:80">Production</option>
+					  <option value="otemba.io:444">Pre-Release TLS</option>
 					  <option value="otemba.io:81">Pre-Release</option>
-					  <option value="localhost:80">Localhost</option>
 					</select>
 				</td>
 			</tr>
