@@ -11,7 +11,29 @@ date: '2019-01-06'
 <p></p><h1 id="welcome-to-otemba">Welcome to Otemba!</h1><p></p>
 <p>Non-blocking payment provider for simple Ethereum contracts. It enables easy mining and inspection of Contracts in the Ethereum blockchain for the users of your website. Instead of the need for Ethers it offers a PayPal dialog.</p>
 <p>You need basic html-skills like creating a web page, issue ajax calls and the <a href="https://github.com/Otemba/paypal-to-eth/tree/master/mining">interaction with a (pre-defined) json</a>.</p>
-<p><a href="https://github.com/Otemba/paypal-to-eth/blob/master/otembaTryOutPage.html">The sample html page</a> is an easy start to begin. It runs on your localhost.</p>
+<p><a href="https://github.com/Otemba/paypal-to-eth/blob/master/examples/single-page-app">The sample html page</a> is an easy start to begin. It runs on your localhost.</p>
+<p>Main characteristics:</p>
+<ul>
+<li>
+Otemba.io offers Create, Read, Update (CRUD) of any Ethereum Contract
+</li>
+<li>
+Read of a Contract is free of cost so no PayPal challenge pops up
+</li>
+<li>
+PayPal payments for interactions with Ethereum, without the need of a crypto currency account for the users of your web page
+</li>
+<li>
+transfer of Ethers via your contract by a "value". You need to compile your own Contract but no Ethers. You may want to use Remix for creating a contract.
+</li>
+<li>
+releases the http socket of the browser and offer non blocking REST interface for your javascript thread. Without that the mining would block connections and your app for minutes because the mining in the Blockchain takes time
+</li>
+<li>
+Lots of testing possibilities for instance by a Ganache instance on Otemba for automated and manual testing without waiting
+</li>
+</ul>
+Create and Update both need payments which is a 3-step process: Create a quote (and a PayPal challenge),  return the PayPal authorization, poll the miners to finish the mining and receive the receipt when they are done.
 <h1 id="release-plan">Release plan</h1>
 <table>
 <thead>
