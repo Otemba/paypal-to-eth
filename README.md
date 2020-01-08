@@ -107,7 +107,7 @@ Create and Update both need payments which is a 3-step process: Create a quote (
 <td>Vouchers</td>
 <td>2.2019</td>
 <td>Returning customers and corporate use</td>
-<td>In progress</td>
+<td><img src="https://github.com/Otemba/paypal-to-eth/blob/master/images/ok.png" alt="done"></td>
 </tr>
 </tbody>
 </table>
